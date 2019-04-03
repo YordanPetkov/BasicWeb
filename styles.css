@@ -1,0 +1,42 @@
+﻿p#Adrs{
+	color:powderblue;
+	text-align:center;
+	background-color:white;
+}
+a:link {
+	color:black;
+	text-decoration:none;
+}
+a:visited {
+	color:red;
+	text-decoration:underline;	
+}
+a:hover {
+	color:green;
+	text-decoration:none;
+}
+a:active {
+	color:yellow;
+	text-decoration:underline;
+}
+
+table,th,td{
+	color:rgb(128,64,128);
+	border:2px solid black;
+	border:collapse:collapse;
+	padding:30px;
+	text-align:center;
+	border-spacing:1px;
+}
+table{
+	float:center;
+}
+ul{
+	list-style-type:none;
+}
+li{
+	color:green;
+	border:2px solid black;
+	background-color:yellow;
+	float:left;
+}

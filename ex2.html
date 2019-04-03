@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+	iframe{
+		border: 2px solid black;
+}
+
+</style>
+<script>
+	var sw=1;
+	function myFunc(){
+		if(sw==1){document.getElementById("demo").innerHTML="Hello i'm JavaScript document!!!";sw=0;}
+		else {document.getElementById("demo").innerHTML="Hello i'm HTML document!!!";sw=1;}
+	}
+</script>
+<body>
+
+	<p id="demo">Hello i'm HTML document</p>
+	<button type="button" onclick="myFunc()">Click Me</button>
+	<form>
+	<fieldset>
+		<legend>Потребител</legend>
+		<input type="text" name="Name">
+		<input type="submit" value="submit"><br>
+		<input type="radio" name="gender" value="male" checked>мъж<br>
+		<input type="radio" name="gender" value="female">жена<br>
+		<input type="radio" name="gender" value="other">друго
+	</fieldset>
+	<select name="cars">
+		<option value="opel" >Opel</option>
+		<option value="audi">Audi</option>
+		<option value="mercedes" selected>Mercedes</option>
+		<option value="honda">Honda</option>
+	</select>
+		<input type="email" name="email" placeholder="Email">
+		<input type="text" name="nickname" placeholder="Nickname">
+		<input type="password" name="password" placeholder="Password">
+		<input type="range" name="volume" min="0" max="100">Volume
+		<input type="month" name="startPeriod">From
+	</form>
+ 
+<br><br>
+<iframe src="ex1.html" height="100" width="100" </iframe>
+</body>
+</head>
+</html>
