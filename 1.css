@@ -1,0 +1,11 @@
+p {
+	color : #66a3ff;
+	font-size : 40px;
+}
+table {
+	border : 2px solid red;
+	border-collapse : collapse;
+}
+tr {
+	margin : 20px;
+}
